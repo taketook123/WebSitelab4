@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" href="styles.css" rel="stylesheet">
+  <title>Бюро знахідок</title>
+</head>
+<body>
+
+  <div class="menu">
+    <a href="homepage.html">Головна</a>
+    <a href="contacts.html">Про нас</a>
+    <a href="postlist.html">Знахідки</a>
+    <a href="addpost.html">Опублікувати</a>
+    
+    
+</div>
+<div class="form-container">
+
+    <h1>Додавання посту</h1>
+    <form method="post" enctype="multipart/form-data">
+      <div class="form-group">
+          <label for="">Name</label>
+          <input type="text" name="name" class="form-input" maxlength="60" required="" id="id_name">
+      </div>
+    
+      <div class="form-group">
+          <label for="">Description</label>
+          <textarea name="description" cols="40" rows="10" class="form-input" maxlength="255" required="" id="id_description"></textarea>
+      </div>
+    
+      <div class="form-group">
+          <label for="">Photo</label>
+          <input type="file" name="photo" class="custom-file-input" accept="image/*" required="" id="id_photo">
+      </div>
+    
+      <div class="form-group">
+          <label for="">Founder contact</label>
+          <input type="text" name="founder_contact" class="form-input" maxlength="60" required="" id="id_founder_contact">
+      </div>
+    
+    <div class="form-group">
+      <input class="form-submit" type="submit" value="Додати">
+    </div>
+
+    </form>
+
+</div>
+
+<footer class="footer">
+  <div class="menu">
+    <a href="homepage.html">Головна</a>
+    <a href="contacts.html">Про нас</a>
+    <a href="postlist.html">Знахідки</a>
+    <a href="addpost.html">Опублікувати</a>
+  </div>
+  <div class="copyright">
+    &copy; 2024 Бюро знахідок
+  </div>
+</footer>
+
+</body>
+</html>
